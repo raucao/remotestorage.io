@@ -1,5 +1,30 @@
-body { padding:200px 0 40px; background:#ddd url(../img/cubes.png) repeat;
-	font-family:FreeSans,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+body {
+  padding: 200px 0 40px;
+  background: #ddd url(../img/cubes.png) repeat;
+	font-family: FreeSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.navbar-inner {
+  height: 70px;
+}
+
+.navbar .brand {
+  padding: 9px 20px 0 20px;
+}
+
+.navbar-inner .brand img {
+  height: 50px;
+}
+
+.navbar .nav {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/* .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus { */
+/*   background: #ddd url(../img/cubes.png) repeat; */
+/* } */
 
 .header .description { white-space:nowrap; font-size:23px; line-height:140%; margin-top:32px; text-shadow:0 1px 0 rgba(255, 255, 255, .4); font-weight:bold; }
 	.header .description p { margin:0 0 4px; }
